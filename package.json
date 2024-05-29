@@ -7,20 +7,30 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "build:tailwind": "tailwindcss build./src/tailwind.css -o./src/tailwind.json"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-native-fontawesome": "^0.3.0",
-    "react": "18.2.0",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-native": "0.73.4",
     "react-native-customizable-toast": "^0.2.1",
+    "react-native-heroicons": "^4.0.0",
+    "react-native-progress": "^5.0.1",
     "react-native-screens": "^3.29.0",
-    "react-native-svg": "^15.0.0",
+    "react-native-svg": "^15.3.0",
     "react-native-toast-message": "^2.2.0",
     "react-native-toast-notifications": "^3.4.0",
-    "react-native-vector-icons": "^10.0.3"
+    "react-native-vector-icons": "^10.0.3",
+    "tailwind-rn": "^4.2.0",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
